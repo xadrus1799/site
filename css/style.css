@@ -13647,7 +13647,8 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	top: 0;
 	right: 0;
 	padding: 4px;
-	height: 56px;
+	/*höhe der Navbar / Navigationsbar / Navigationsleiste*/
+	height: 150px;
 	color: #9f9f9f;
 	z-index: 999;
 }
