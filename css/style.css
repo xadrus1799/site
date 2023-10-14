@@ -12844,7 +12844,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	outline: none;
 	outline-offset: 0;
 	cursor: pointer;
-	-webkit-appearance: none;
+	--webkit-appearance: none;
 }
 
 .rd-navbar-search .rd-navbar-search-toggle::-moz-focus-inner,
@@ -13648,7 +13648,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	right: 0;
 	padding: 4px;
 	/*höhe der Navbar / Navigationsbar / Navigationsleiste*/
-	height: 150px;
+	height: 130px;
 	color: #9f9f9f;
 	z-index: 999;
 }
@@ -15694,8 +15694,8 @@ html.boxed .rd-navbar--is-clone {
 }
 
 .swiper-container .swiper-wrapper {
-	height: auto;
-	min-height: 36.25vw;
+	height: 60vw  !important;
+	min-height: 50vw;
 }
 
 @media (min-width: 1600px) {
@@ -16019,7 +16019,7 @@ html.boxed .rd-navbar--is-clone {
 /* Coverflow */
 .swiper-container-coverflow .swiper-wrapper {
 	/* Windows 8 IE 10 fix */
-	-ms-perspective: 1200px;
+	--ms-perspective: 1200px;
 }
 
 /* Fade */
