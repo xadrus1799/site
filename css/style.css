@@ -15694,8 +15694,8 @@ html.boxed .rd-navbar--is-clone {
 }
 
 .swiper-container .swiper-wrapper {
-	height: 60vw  !important;
-	min-height: 50vw;
+	height: auto !important;
+	min-height: 40vw;
 }
 
 @media (min-width: 1600px) {
@@ -15717,6 +15717,9 @@ html.boxed .rd-navbar--is-clone {
 	flex-direction: column;
 }
 
+.rounded-border {
+	border-radius: 25px;
+}
 .swiper-wrapper {
 	position: relative;
 	width: 100%;
