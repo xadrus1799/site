@@ -41,6 +41,12 @@ label {
 
 p {
 	margin: 0;
+	font-size: 17px;
+}
+
+p.text-secondary{
+	margin: 0;
+	color: black !important;
 }
 
 ul,
@@ -103,16 +109,14 @@ html p a:hover {
 }
 
 html {
-	font-size: 10px;
+	font-size: 15;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
 	font-family: 'Roboto Condensed', sans-serif;
 	-webkit-text-size-adjust: none;
-	color: #9f9f9f;
-	background-color: #fff;
-	font-weight: 400;
+	font-weight: 1000;
 	-webkit-font-smoothing: subpixel-antialiased;
 	text-rendering: optimizeLegibility;
 }
@@ -723,9 +727,6 @@ address {
 	}
 }
 
-.page .text-default {
-	color: #9f9f9f;
-}
 
 .page .text-primary {
 	color: #ba7c00;
@@ -733,6 +734,10 @@ address {
 
 .page .text-secondary {
 	color: #00030a;
+}
+
+.text-secondary {
+	color: black;
 }
 
 .page .text-cggastro{
