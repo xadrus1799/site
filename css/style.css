@@ -12589,7 +12589,7 @@ html:not(.lt-ie10) .not-animated {
 
 .parallax-disabled {
 	background-size: cover;
-	background-position: center;
+	
 }
 
 html:not(.ie-11):not(.ios) .parallax-disabled {
@@ -12684,7 +12684,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .rd-navbar-collapse-toggle {
 	display: inline-block;
 	position: relative;
-	width: 48px;
+	width: 20000px;
 	height: 48px;
 	line-height: 48px;
 	cursor: pointer;
@@ -16201,7 +16201,6 @@ html.boxed .rd-navbar--is-clone {
 	position: relative;
 	text-align: center;
 	white-space: nowrap;
-	background-position: center center;
 	overflow: hidden;
 }
 
