@@ -15689,27 +15689,32 @@ html.boxed .rd-navbar--is-clone {
  * @see          http://www.idangero.us/swiper/
  * @licesne      MIT License
  */
+
+ /*
 .swiper-container {
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
-	/* Fix of Webkit flickering */
 	z-index: 1;
 	height: auto;
 }
+*/
 
+/*
 .swiper-container .swiper-wrapper {
 	height: auto !important;
 	min-height: 40vw;
 }
+*/
 
+/*
 @media (min-width: 1600px) {
 	.swiper-container .swiper-wrapper {
 		height: auto;
 		min-height: 696px;
 	}
 }
-
+*/
 .swiper-container-no-flexbox .swiper-slide {
 	float: left;
 }
@@ -15727,7 +15732,10 @@ html.boxed .rd-navbar--is-clone {
 }
 .swiper-wrapper {
 	position: relative;
+	/*
 	width: 100%;
+	height: auto;
+	*/
 	z-index: 1;
 	display: -webkit-box;
 	display: -moz-box;
@@ -15787,8 +15795,10 @@ html.boxed .rd-navbar--is-clone {
 	-webkit-flex-shrink: 0;
 	-ms-flex: 0 0 auto;
 	flex-shrink: 0;
+	/*
 	width: 100%;
 	min-height: inherit;
+	*/
 }
 
 /* a11y */
@@ -15889,7 +15899,7 @@ html.boxed .rd-navbar--is-clone {
 
 .swiper-pagination {
 	display: block;
-	width: 100%;
+	
 	text-align: center;
 	transition: 300ms;
 	-webkit-transform: translate3d(0, 0, 0);
