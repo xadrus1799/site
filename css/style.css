@@ -10,6 +10,25 @@
  *     4.3 Google Map
  */
 /** @group Base */
+
+.centered-logo-partner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+	width: 300px;
+	transition: transform .3s;
+	margin: 2em;
+}
+.centered-logo-partner img:hover {
+	transform: scale(0.8); /* Verkleinerungseffekt beim Überfahren */
+}
+
+#partner{
+	margin-top: 2.5em;
+}
+
+
 a:focus,
 button:focus {
 	outline: none !important;
