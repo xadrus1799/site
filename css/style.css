@@ -746,6 +746,9 @@ address {
 	}
 }
 
+.text-black {
+	color: #000;
+}
 
 .page .text-primary {
 	color: #ba7c00;
