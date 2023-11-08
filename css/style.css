@@ -192,6 +192,26 @@ section {
 	}
 }
 
+@media (max-width: 992px) {
+	.hidemobile{
+		visibility: hidden;
+	}
+	.rd-navbar-fixed .rd-navbar-panel {
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		padding: 4px;
+		/*höhe der Navbar / Navigationsbar / Navigationsleiste*/
+		height: 55px !important;
+		color: #9f9f9f;
+		z-index: 999;
+	}
+}
+
 input,
 button,
 select,
@@ -4846,8 +4866,8 @@ html .button-primary-contrast, html .button-primary-contrast:active, html .butto
 
 .open > html .button-primary-contrast.dropdown-toggle, html .button-primary-contrast:hover {
 	color: #fff;
-	background-color: #42b294;
-	border-color: #42b294;
+	background-color: #fd7e14;
+	border-color: #fd7e14;
 }
 
 html .button-primary-contrast.disabled, html .button-primary-contrast[disabled],
@@ -8254,7 +8274,7 @@ blockquote cite {
 }
 
 .page .link-primary-inline.hover, .page .link-primary-inline:hover {
-	color: #42b294;
+	color: #fd7e14;
 }
 
 .page .link-default, .page .link-default:active, .page .link-default:focus {
@@ -13760,7 +13780,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 .rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-fixed .rd-navbar-nav li:hover > a:hover, .rd-navbar-fixed .rd-navbar-nav li.focus > a, .rd-navbar-fixed .rd-navbar-nav li.focus > a:hover, .rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-fixed .rd-navbar-nav li.active > a:hover, .rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-fixed .rd-navbar-nav li.opened > a:hover {
 	color: #fff;
-	background: #42b294;
+	background: #fd7e14;
 }
 
 .rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle::after, .rd-navbar-fixed .rd-navbar-nav li.focus > .rd-navbar-submenu-toggle::after, .rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle::after, .rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle::after {
@@ -15581,7 +15601,7 @@ html.boxed .rd-navbar--is-clone {
 
 .rd-search-results-live .search-submit:hover {
 	color: #fff;
-	background: #42b294;
+	background: #fd7e14;
 }
 
 .rd-search-results-live .match {
