@@ -15837,10 +15837,10 @@ html.boxed .rd-navbar--is-clone {
 	-webkit-flex-shrink: 0;
 	-ms-flex: 0 0 auto;
 	flex-shrink: 0;
-	/*
+	
 	width: 100%;
 	min-height: inherit;
-	*/
+	
 }
 
 /* a11y */
